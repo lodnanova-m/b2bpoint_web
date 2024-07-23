@@ -20,7 +20,7 @@ export function Header() {
             <div className="flex flex-row justify-between p-10 px-16 content-center">
                 <Link href="/"><Image src="/logo_main.svg" alt="logo" width={110} height={40}></Image></Link>
 
-                <nav className="font-avenir text-purple text-bold">
+                <nav className="font-avenir text-purple font-medium">
                     <Link href="/" className="px-4">O nás</Link>
                     <Link href="/services" className="px-4">Služby</Link>
                     <Link href="#partners" onClick={handleHashLinkClick('#partners')} className="px-4">Partneři</Link>
