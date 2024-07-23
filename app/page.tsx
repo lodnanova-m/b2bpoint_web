@@ -1,10 +1,13 @@
-import Image from "next/image";
+import { About } from "./components/About/About";
+import { Partners } from "./components/Partners/Partners";
+import { Contact } from "./components/Contact/Contact";
 
 export default function Home() {
   return (
-    <>
-      <div className="font-avenir text-regulear">One font</div>
-      <div>second font</div>
-    </>
+    <div className="flex flex-col">
+      <About></About>
+      <Partners></Partners>
+      <Contact></Contact>
+    </div>
   );
 }
