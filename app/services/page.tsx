@@ -1,9 +1,12 @@
 import { NextPage } from 'next'
+import { ServicesList } from '../components/ServicesList/ServicesList'
 
-interface Props {}
+interface Props { }
 
-const Services: NextPage<Props> = ({}) => {
-  return <div>Services works</div>
+const Services: NextPage<Props> = ({ }) => {
+  return (<div>
+    <ServicesList></ServicesList>
+  </div>)
 }
 
 export default Services

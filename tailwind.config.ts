@@ -27,9 +27,9 @@ const config: Config = {
         'bold-italic': "700",
         'medium-italic': "500",
       },
-      
+
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate"),],
 };
 export default config;
