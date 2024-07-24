@@ -12,3 +12,12 @@ export interface Service {
 export interface ServicesData {
     services: Service[];
 }
+
+export interface Actuality {
+    imagePath: ComponentProps<typeof Image>["src"],
+    label: string,
+    title: string,
+    place: string,
+    date: string,
+    href: string,
+}
