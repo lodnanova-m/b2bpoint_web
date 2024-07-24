@@ -21,3 +21,9 @@ export interface Actuality {
     date: string,
     href: string,
 }
+
+export type FormData = {
+    name: string;
+    email: string;
+    message: string;
+};
