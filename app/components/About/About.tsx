@@ -36,12 +36,15 @@ export function About() {
 
                         <div className="text-purple items-start px-4 text-xl font-medium">Co Vám můžeme nabídnout</div>
                         <div className="grid place-items-center items-start py-4">
-                            <div className="flex flex-row">{exampleServices[0] && <AboutCard service={exampleServices[0]} containsImage={false} />}
+                            <div className="flex flex-col sm:flex-row">
+                                {exampleServices[0] && <AboutCard service={exampleServices[0]} containsImage={false} />}
                                 {exampleServices[2] && <AboutCard service={exampleServices[2]} containsImage={false} />}
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col sm:flex-row">
                                 {exampleServices[1] && <AboutCard service={exampleServices[1]} containsImage={true} />}
-                                {exampleServices[3] && <AboutCard service={exampleServices[3]} containsImage={true} />}</div>
+                                {exampleServices[3] && <AboutCard service={exampleServices[3]} containsImage={true} />}
+                            </div>
+
                         </div>
                         <Link href="/services" className="flex flex-row text-purple justify-end px-4 text-xl font-medium">a mnoho dalších</Link>
                     </div>

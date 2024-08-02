@@ -4,7 +4,7 @@ import { ServicesList } from '../components/ServicesList/ServicesList'
 interface Props { }
 
 const Services: NextPage<Props> = ({ }) => {
-  return (<div>
+  return (<div className=''>
     <ServicesList></ServicesList>
   </div>)
 }

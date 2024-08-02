@@ -4,11 +4,11 @@ export function Footer() {
     return (
         <>
             <div className="bg-purple flex flex-col text-white py-14">
-                <div className="flex flex-row justify-evenly">
+                <div className="flex lg:flex-row lg:justify-evenly flex-col p-10">
                     <div className="flex flex-col justify-between">
-                        <div className="flex flex-col pb-4">
-                            <div className="font-avenir text-bold ">
-                                Provozovatel
+                        <div className="flex flex-col lg:pb-4">
+                            <div className="font-avenir font-bold text-xl">
+                                PROVOZOVATEL
                             </div>
                             <div className="flex flex-col font-avenir text-regular">
                                 <div>TASKA CZ s.r.o.</div>
@@ -19,7 +19,7 @@ export function Footer() {
                             </div>
                         </div>
                         <div className="flex flex-col py-4">
-                            <div className="font-avenir text-bold">Sklad</div>
+                            <div className="font-avenir font-bold text-xl">SKLAD</div>
                             <div className="flex flex-col font-avenir text-regular">
                                 <div>TASKA CZ s.r.o</div>
                                 <div>Žižkova ulice 185</div>
@@ -27,8 +27,8 @@ export function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="font-avenir text-regular">
-                        <div className="pb-10">KONTAKT</div>
+                    <div className="font-avenir">
+                        <div className="lg:pb-10  font-bold text-xl">KONTAKT</div>
                         <div>
                             <div className="flex flex-row content-center py-2">
                                 <Image src="./envelope.svg" alt="evelope icon" height={20} width={20}></Image>
@@ -45,16 +45,16 @@ export function Footer() {
 
                         </div>
                     </div>
-                    <div className="flex flex-col justify-between">
+                    <div className="flex flex-col lg:pb-4 py-4 justify-between">
                         <div>
-                            <div className="pb-4">NEWSLETTER</div>
+                            <div className=" font-bold text-xl">NEWSLETTER</div>
                             <div>
                                 <div>Exkluzivní tipy a inspirace přímo pro Vás!</div>
                                 <div>form</div>
                             </div>
                         </div>
                         <div>
-                            <div>SLEDUJTE NÁS</div>
+                            <div className=" font-bold text-xl ">SLEDUJTE NÁS</div>
                             <div className="flex flex-row py-4">
                                 <Image src="./instagram.svg" alt="instagram icon" height={50} width={50} className="pr-6"></Image>
                                 <Image src="./facebook.svg" alt="facebook icon" height={50} width={50} className="pr-6"></Image>
