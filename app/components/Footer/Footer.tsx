@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
     return (
@@ -29,7 +30,7 @@ export function Footer() {
                     </div>
                     <div className="font-avenir">
                         <div className="lg:pb-10  font-bold text-xl">KONTAKT</div>
-                        <div>
+                        <div className="pb-4">
                             <div className="flex flex-row content-center py-2">
                                 <Image src="./envelope.svg" alt="evelope icon" height={20} width={20}></Image>
                                 <div className="pl-3">info@b2bpoint.cz</div>
@@ -45,21 +46,38 @@ export function Footer() {
 
                         </div>
                     </div>
-                    <div className="flex flex-col lg:pb-4 py-4 justify-between">
+                    <div className="flex flex-col lg:pb-4 justify-between">
                         <div>
                             <div className=" font-bold text-xl">NEWSLETTER</div>
-                            <div>
+                            <div className="pb-4">
                                 <div>Exkluzivní tipy a inspirace přímo pro Vás!</div>
-                                <div>form</div>
+                                <div className="py-2 flex flex-row">
+                                    <input
+                                        type="email"
+                                        placeholder="Váš email"
+                                        className="bg-white w-full bg-opacity-90 border-transparent rounded-md px-4 py-2 drop-shadow-lg text-lg font-avenir font-light text-purple placeholder-gray-500"
+                                    />
+                                    <button type="submit" className="bg-green  rounded-md px-2 py-2 mx-2 bg-opacity-70 hover:bg-green hover:bg-opacity-90">
+                                        <Image src="envelope.svg" alt="newsletter button" width={40} height={40}></Image>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div>
+                        <div className="">
                             <div className=" font-bold text-xl ">SLEDUJTE NÁS</div>
                             <div className="flex flex-row py-4">
-                                <Image src="./instagram.svg" alt="instagram icon" height={50} width={50} className="pr-6"></Image>
-                                <Image src="./facebook.svg" alt="facebook icon" height={50} width={50} className="pr-6"></Image>
-                                <Image src="./linkedin.svg" alt="linkedin icon" height={50} width={50} className="pr-6"></Image>
-                                <Image src="./youtube.svg" alt="youtube icon" height={30} width={30}></Image>
+                                <Link href="https://www.instagram.com/b2bpointcz/">
+                                    <Image src="./instagram.svg" alt="instagram icon" height={50} width={50} className="pr-6"></Image>
+                                </Link>
+                                <Link href="https://www.facebook.com/b2bpoint">
+                                    <Image src="./facebook.svg" alt="facebook icon" height={50} width={50} className="pr-6"></Image>
+                                </Link>
+                                <Link href="https://www.linkedin.com/company/b2bpoint-cz/">
+                                    <Image src="./linkedin.svg" alt="linkedin icon" height={50} width={50} className="pr-6"></Image>
+                                </Link>
+                                <Link href="https://www.youtube.com/@B2Bpoint">
+                                    <Image src="./youtube.svg" alt="youtube icon" height={30} width={30}></Image>
+                                </Link>
                             </div>
                         </div>
                     </div>
