@@ -9,7 +9,7 @@ export function ServicesList() {
     return (
         <div className='flex flex-col px-40 pb-16'>
             <div className='text-purple text-2xl font-bold text-center'>Služby pro velkoobchodní partnery - Vaše podpora pro úspěch a růst</div>
-            <div className='text-purple text-xs font-medium py-8'>Naše společnost se zaměřuje na podporu velkoobchodních podniků a jejich růst. Nabízíme širokou škálu služeb navržených tak, aby vám poskytly konkurenční výhodu a posílily vaše obchodní vztahy. Jsme připraveni stát se vaším spolehlivým partnerem a pomoci vám dosáhnout úspěchu ve vašem oboru.</div>
+            <div className='text-purple text-md font-medium py-8'>Naše společnost se zaměřuje na podporu velkoobchodních podniků a jejich růst. Nabízíme širokou škálu služeb navržených tak, aby vám poskytly konkurenční výhodu a posílily vaše obchodní vztahy. Jsme připraveni stát se vaším spolehlivým partnerem a pomoci vám dosáhnout úspěchu ve vašem oboru.</div>
             <div className="md:grid md:grid-cols-2 lg:grid-cols-3 flex flex-col place-items-center items-start gap-6">
                 {servicesData.services.map((service: Service, id: number) => (
                     <Link key={id} href={`/services/${id}`} className='flex flex-col items-center max-w-sm shadow-lg min-h-full hover:scale-105 transform transition duration-150'>
