@@ -27,3 +27,14 @@ export type FormData = {
     email: string;
     message: string;
 };
+
+export interface ServiceDetail {
+    id: number,
+    title: string,
+    imagePath: ComponentProps<typeof Image>["src"],
+    description: string[],
+}
+
+export interface ServiceDatailData {
+    serviceDetails: ServiceDetail[];
+}

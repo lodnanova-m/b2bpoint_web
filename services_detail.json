@@ -1,0 +1,202 @@
+{
+    "serviceDetails": [
+        {
+            "id": 1,
+            "title": "Online marketing",
+            "imagePath": "service_2.png",
+            "description": [
+                "Jaké online marketingové služby můžete využít?",
+                "Naše online marketingové služby zahrnují širokou škálu strategií a technik, které vám pomohou dosáhnout vašich cílů na internetu. Od optimalizace pro vyhledávače (SEO) a tvorby kvalitního obsahu až po správu internetové reklamy a sociálních médií. Nezáleží na tom, zda jste malým podnikatelem nebo velkou firmou, naše služby jsou přizpůsobeny vašim potřebám.",
+                "Co nabízíme?",
+                "Konzultace - Jak zlepšovat pozice na Google? Jak na SEO? Kde a jak na webu upravit texty? Jak na eshopu nastavit...? Spousta otázek, které se dají řešit v krátkých Online konzultacích nebo individuálním proškolením. Konzultace webu nebo eshopu Vám usnadní práci a ušetří čas. V rámci obou programů B2B point máte přístup ke konzultaci zdarma.",
+                "Internetová reklama - Internetová reklama Vám přinese okamžitý účinek - nové objednávky, poptávky, návštěvnost. Nabízíme zpracování a vedení online kampaní na Google, Facebook, Instagram a Seznamu. Online marketing je velmi důležitá součást Vaší práce ať děláte cokoli. V rámci obou programů B2B Point máte možnost využít naše služby s výhodnými cenovými podmínkami.",
+                "Správa webu - Máte vlastní web a potřebujete provádět změny nebo vylepšení? Postaráme se o správu webu a posuneme jeho možnosti o kousek dál. Dlouhodobá správa webu nebo jednorázové úpravy dle potřeby. V rámci obou programů B2B Point máte možnost využít naše služby s výhodnými cenovými podmínkami.",
+                "Copywriting - Asi nejdůležitější součástí webových stránek nebo eShopu je obsah. Originální text je pro zákazníky a vyhledávače to pravé a ceněné zlato. Optimální množství správně napsaného obsahu na Vašem webu přiláká nové zákazníky a posune Vás v žebříčku hledání dopředu. V rámci obou programů B2B Point máte možnost využít naše služby s výhodnými cenovými podmínkami.",
+                "Tvorba webu a eshopu - Připravíme Vám webové stránky nebo eshop podle Vašich představ s nadstandardními SEO nástroji. Tvorba webových stránek na míru. Široké možnosti responsivního designu Vašeho webu a práce se SEO. Připravíme Vám webové stránky nebo eshop podle Vašich představ s nadstandardními SEO nástroji. Tvorba webových stránek na míru. Široké možnosti responsivního designu Vašeho webu a práce se SEO.",
+                "SEO - optimalizace webu pro vyhledávače - Nemusíte být profesionály na optimalizaci webu a tvorbu webových stránek a nemusíte ani investovat každý měsíc vysoké částky, abyste byli úspěšní v online marketingu. SEO může být i zábava a rádi Vám pomůžeme zlepšit Vaše šance. V rámci obou programů B2B Point máte možnost využít naše služby s výhodnými cenovými podmínkami."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Balení sypkých potravín",
+            "imagePath": "service_3.png",
+            "description": [
+                "Máte sypké potraviny a hledáte efektivní způsob, jak je profesionálně zabalit?",
+                "Profesionální balení potravin, koření, čajových směsí, chlebových směsí, mlýnských výrobků, luštěnin, ořechů, sušeného ovoce, cukru, müsli, sušené zeleniny a dalších produktů.",
+                "Tato služba zahrnuje individuální balení přizpůsobené přáním velkoobchodních zákazníků, a to jak pro menší objemy (desítky kilogramů), tak i pro velké množství (desítky tun).",
+                "Rychlý a efektivní proces balení pro optimální spokojenost zákazníků.",
+                "Proces balení Vašeho zboží probíhá na moderních vertikálních balících strojích, a to do čiré, metalické nebo dovezené fólie dle Vašeho výběru, s možností různých tloušťek a šířek. Na základě zájmu zákazníka můžeme zajišťovat výrobu potištěných fólií.",
+                "Díky dlouhodobé spolupráci s firmami specializujícími se na výrobu fólií, kartonů a etiket můžeme nabízet konkurenceschopné ceny pro naše zákazníky. Kromě toho poskytujeme také služby tisku etiket a dotisku na předtištěné etikety pomocí termo-transferové tiskárny.",
+                "Vaše spokojenost je pro nás prioritou, a proto se těšíme na možnost dlouhodobé spolupráce s vámi."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Nabídka vašich výrobků v CZ, SK a dalších zemích",
+            "imagePath": "service_5.png",
+            "description": [
+                "Otevíráme dveře ke globálnímu úspěchu vašeho podnikání!",
+                "Jsme tady pro podnikatele a firmy, které touží expandovat za hranice české republiky a oslovit nové trhy ve střední Evropě a po celém světě. Naše dlouholeté zkušenosti a odborné znalosti v oblasti mezinárodního obchodu jsou zde, abychom vám pomohli dosáhnout vašich cílů.",
+                "Jak vám můžeme pomoci?",
+                "Naše tým odborníků vám poskytne strategické rady, konzultace ohledně cílových trhů a zemí, a vytvoříme pro vás efektivní plán expanze. Chceme, abyste se na nás obrátili ještě dnes a začali budovat světlou budoucnost pro vaše podnikání. Vyplňte náš kontaktní formulář níže a my se vám brzy ozveme."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Financování projektů",
+            "imagePath": "service_6.png",
+            "description": [
+                "Investice do vašeho úspěchu!",
+                "Víme, že každý projekt začíná s vizí a ambicí. Ale bez dostatečného financování může tato vize zůstat nedosažitelným snem. Právě proto jsme tu – abychom vám pomohli získat potřebné investice a finanční zdroje pro vaše projekty.",
+                "Naše služby pro vaši finanční stabilitu!",
+                "Náš tým expertů je připraven najít optimální finanční řešení pro vaše projekty. Pomáháme vám získat investory, dotace, nebo jiné formy finanční podpory, které vám umožní růst a rozvíjet vaše podnikání. S námi se vaše projekty stanou skutečností.",
+                "Nechte nás vám pomoci – kontaktujte nás dnes!",
+                "Chceme, abyste se na nás obrátili ještě dnes a začali pracovat na realizaci vašich projektů. Vyplňte náš kontaktní formulář níže a my se vám brzy ozveme. Společně dosáhneme finanční stability a úspěchu vašich projektů."
+            ]
+        },
+        {
+            "id": 6,
+            "title": "enovation | Dotace pro váš projekt",
+            "imagePath": "service_7.png",
+            "description": [
+                "Pomůžeme vám získat dotaci pro váš projekt.",
+                "Profitujte z našich zkušeností",
+                "Dotace, investiční pobídky, daňové odpočty, veřejné zakázky. Orientujeme se ve všech oblastech od výroby a energetiky přes výzkum, vývoj a zdravotnictví až po zelené podnikání a elektromobilitu. Díky více než 90% úspěšnosti schvalování dotací jsme si vybudovali silnou pozici jedničky na trhu a na přípravě některých programů se přímo podílíme.​​​​​​",
+                "Věděli jste?",
+                "16 let na trhu - Za tu dobu jsme nabrali tolik zkušeností a know-how o veřejných zdrojích, že jsme zdrojem informací i pro úřady.",
+                "38 miliard - Díky dlouholetým zkušenostem získáme pro klienty maximum z dotačních programů.",
+                "1700 projektů - Firmy jako Škoda, Bramac, Zentiva, T-Mobile a další, ale i státní organizace nebo malé rodinné firmy.",
+                "18 poboček - Jsme vám blíž než si myslíte. Pobočku enovation najdete v každém kraji."
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Vývoj, výroba a legislativa",
+            "imagePath": "service_8.png",
+            "description": [
+                "Vyrobíme vám vlastní doplněk stravy. Ve kterých oblastech zakázkové výroby se na nás můžete spolehnout?",
+                "Dotace, investiční pobídky, daňové odpočty, veřejné zakázky. Orientujeme se ve všech oblastech od výroby a energetiky přes výzkum, vývoj a zdravotnictví až po zelené podnikání a elektromobilitu. Díky více než 90% úspěšnosti schvalování dotací jsme si vybudovali silnou pozici jedničky na trhu a na přípravě některých programů se přímo podílíme.​​​​​​",
+                "Vývoj produktu na míru",
+                "Testování a výroba produktu",
+                "Legislativa a dokumentace",
+                "Marketing a poradenství",
+                "Vývoj - Vyvineme pro Vás unikátní produkty dle Vašich specifických potřeb.",
+                "Suroviny - Pro výrobu Vašich doplňků stravy vybereme vhodné a ověřené suroviny v bio kvalitě, konvenční kvalitě od ověřených pěstitelů a výrobců.",
+                "Výroba - Vyrábíme doplňky stravy nejmodernějšími postupy.",
+                "Kvalita - Dodržujeme co nejvyšší možnou kvalitu. Certifikované suroviny, kvalitní obaly a laboratorní testy - záruka ne.",
+                "Naše služby zahrnují:",
+                "Mletí,",
+                "Drcení,",
+                "Míchání (homogenizace),",
+                "Tobolkování,",
+                "Sáčkování / jednorázové sáčky,",
+                "Balení,",
+                "Etiketování,",
+                "Nabízíme tyto služby a suroviny:",
+                "Výroba zdravé výživy",
+                "Suroviny pro zdravou výživu",
+                "Poradenství a vývoj doplňků pro zdravou výživu",
+                "Veganský protein, Halal kolagen, bio suroviny",
+                "Přírodní extrakty",
+                "Superfoods prášky",
+                "A další",
+                "Sledujeme a vyrábíme podle nejnovějších poznatků vědy. Spolupracujeme s VŠCHT, s lékaři a odborníky na výživu.",
+                "Balící služby:",
+                "různé druhy obalů pro doplňky stravy",
+                "výběr kvalitních obalů",
+                "profesionální balení do sáčků, lahviček, dopyacků",
+                "individuální potisk sáčků a obalů",
+                "dózy, krabičky, eko obaly",
+                "kapsle vegan, různé velikosti",
+                "Nabízíme široký výběr surovin:",
+                "Vitamíny: všechny jednotlivé vitamíny, vitamínové mixy na zakázku",
+                "hydroláty, z českých a slovenských bylin",
+                "oleje z bio - např. švestkový, šípkový, meruňkový",
+                "extrakty z bylin, lihové, olejové maceráty",
+                "Minerály: všechny jednotlivé minerály, minerální mixy na zakázku",
+                "Proteiny: syrovátkový koncentrát (whey protein concentrate — WPC), syrovátkový izolát (whey protein isolate — WPI), hydrolyzované proteiny (DH32, DH5), rostlinné proteiny (sójový, konopný, hrachový, rýžový), kolagenní proteiny, Halal kolagen",
+                "Aminokyseliny: široký výběr dostupných aminokyselin",
+                "Superfoods prášky konvenční i bio kvality"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Školení zaměstnanců a firemní vzdělávání",
+            "imagePath": "service_9.png",
+            "description": [
+                "Elearning a Prezenční školení!",
+                "V dnešním rychle se měnícím světě je klíčem k úspěchu firem neustálý rozvoj a školení zaměstnanců. My vám přinášíme výhody moderního firemního vzdělávání, které zahrnuje jak elearning, tak i prezenční školení.",
+                "Rozmanitost školení dle vašich potřeb. Naše školení zahrnují široké spektrum oblastí, Jako například:",
+                "Bezpečnosti práce (BOZP)",
+                "Požární ochrana (PO)",
+                "Řidič referent",
+                "První pomoci",
+                "Práce ve výškách",
+                "Soft-skills",
+                "Time-management",
+                "Finančního management",
+                "AML – Prevence praní špinavých peněz",
+                "Kybernetické bezpečnosti",
+                "Mediální gramotnost",
+                "a mnoho dalších",
+                "A co je důležité, můžeme vám nabídnout jak elearningové kurzy, tak i prezenční školení, aby se vaše zaměstnanci mohli učit způsobem, který jim nejlépe vyhovuje.",
+                "Výhody elearningu a prezenčních školení pro firemní vzdělávání:",
+                "Kombinace elearningu a prezenčních školení poskytuje optimální flexibilitu. Elearning umožňuje zaměstnancům učit se vlastním tempem, když to jim nejlépe vyhovuje, zatímco prezenční školení podporuje interakci a konkrétní praktické dovednosti. Tímto způsobem můžete nabídnout moderní a interaktivní vzdělávání, které pomáhá vaší firmě růst.",
+                "Investujte do budoucnosti vaší firmy!",
+                "Pomozte svým zaměstnancům získat potřebné dovednosti a znalosti díky našemu kombinovanému přístupu k vzdělávání. Investujte do budoucnosti vaší firmy. Vyplňte náš kontaktní formulář níže a začněte novou éru firemního vzdělávání."
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Dobalíku | Reklamní letáky a karty do balíku",
+            "imagePath": "service_10.png",
+            "description": [
+                "Staňte se partnerem naší sítě DOBALÍKU. Vyděláte vkladem reklamních letáků a karet do Vašich zasílaných balíků. Navíc budete mít další přidanou hodnotu pro Vašeho zákazníka ve formě slevových kuponů, vzorků a soutěží.",
+                "Co partnerstvím získáte?",
+                "Dodateční příjmy – za každý vklad vám zaplatíme",
+                "Benefity pro vaše zákazníky – většina vkladů jsou exkluzivní slevové kupóny nebo reklamní vzorky",
+                "Zvýšení loajality zákazníků – 85 % zákazníků pokládá tištěné slevové kupóny za užitečné",
+                "Začněte generovat dodatečné výnosy za vkládání reklamních příloh do vašich. Jak na to?",
+                "1. Registrace - Po schválení registrace a vyplnění dotazníku, který slouží pro rozlišení a správné určení cílové skupiny a souhlasu s obchodními podmínkami se stáváte partnerem sítě DOBALÍKU a můžete začít",
+                "2. Objednávka vkladů do balíku - Každý reklamní materiál Vám bude dopředu poslán ke schválení. Po jeho schválení Vám budou zaslány veškeré materiály a informace k vkladům.",
+                "3. Splněná služba - Po rozeslání balíků, potvrdíte v systému, že jste vkládání a rozesílku dokončili. Provádíme namátkové nákupy zboží, které Vám pak bude vráceno pro kontrolu správnosti vkladů",
+                "4. Výplata za službu - Výplata za službu Vám bude chodit na Váš účet po skončení každého kalendářního měsíce na uvedený účet. Stavy se schválíte a tím vytvoříte podklad pro vyplacení a pro zaslání faktury pro nás."
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Výprodej skladových zásob",
+            "imagePath": "service_11.png",
+            "description": [
+                "Efektivní řešení pro výprodej skladových zásob - B2Bpoint řeší také profesionální správu a prodej skladových zásob našich partnerů. S naším inovativním přístupem pomáháme optimalizovat procesy a maximalizovat zisk.",
+                "Jak to funguje?",
+                "1. Registrace a přidání zásob: Zaregistrujte se jako partner a přidejte své skladové zásoby do našeho systému. Náš portál vám umožní jednoduše spravovat a aktualizovat dostupné produkty.",
+                "2. Nabídka širšímu publiku: S naším rozsáhlým partnerstvím vám umožňujeme prezentovat vaše zásoby nejen na našem portálu, ale i u dalších kvalifikovaných partnerů, což zvyšuje šance na rychlý prodej.",
+                "3. Optimalizace procesů: Využíváme moderní technologie a digitální marketing k tomu, abychom zajistili efektivní a cílený výprodej. Naše služby zahrnují i optimalizaci obsahu a SEO pro maximální viditelnost.",
+                "Výhody spolupráce:",
+                "Rychlý a efektivní výprodej: Díky našim strategiím a partnerstvím dosahujeme rychlých a efektivních výsledků při prodeji skladových zásob.",
+                "Rozšíření vašeho dosahu: S naším rozsáhlým partnerstvím získáte přístup k širšímu publiku, což vede k zvýšení prodejů.",
+                "Profesionální přístup: Náš tým se postará o profesionální prezentaci vašich produktů a zajistí, aby byly správně prezentovány a lákaly potenciální zákazníky."
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Ochrana duševního a průmyslového vlastnictví",
+            "imagePath": "",
+            "description": [
+                "Rádi bychom Vám nabídli naše komplexní služby v oblasti zpracování přihlášek vynálezů, užitných a průmyslových vzorů, a ochranných známek. Poskytujeme kompletní servis včetně vyřizování agendy, sledování platnosti průmyslových práv a zastupování před Úřadem průmyslového vlastnictví ČR a Evropským patentovým úřadem. Navíc zajišťujeme podání přihlášek i v zahraničí. Dále nabízíme služby v oblasti patentových a známkových rešerší, návrhů licenčních smluv, oceňování nehmotného majetku a dalších souvisejících oblastí průmyslového práva.",
+                "Přehled služeb:",
+                "Zpracování žádostí o udělení patentu a užitných vzorů, průmyslových vzorů a topografií polovodičových výrobků.",
+                "Zpracování mezinárodních přihlášek vynálezů prostřednictvím PCT nebo Evropského patentu.",
+                "Zajištění podání přihlášek vynálezů, užitných vzorů, průmyslových vzorů a ochranných známek v zahraničí.",
+                "Zpracování národních a mezinárodních přihlášek ochranných známek a označení původu.",
+                "Patentové rešerše.",
+                "Známkové rešerše.",
+                "Zastupování v řízení před Úřadem průmyslového vlastnictví České republiky a Evropským patentovým úřadem.",
+                "Zpracování podloh pro licenční smlouvy v oblasti průmyslového vlastnictví.",
+                "Ocenění nehmotného majetku a znalecké posudky.",
+                "Vedení agendy týkající se průmyslového vlastnictví, včetně sledování lhůt platnosti a upozornění na možnosti prodloužení registrací."
+            ]
+        }
+    ]
+}
