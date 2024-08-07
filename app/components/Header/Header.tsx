@@ -42,7 +42,7 @@ export function Header() {
                     <Link href="/services" className="px-4">Služby</Link>
                     <Link href="#partners" onClick={handleHashLinkClick('#partners')} className="px-4">Partneři</Link>
                     <Link href="#contact" onClick={handleHashLinkClick('#contact')} className="px-4">Kontakt</Link>
-                    <Link href="/" className="px-4">Eshop</Link>
+                    <Link href="https://eshop.b2bpoint.cz" className="px-4">Eshop</Link>
                 </nav>
             </div>
 

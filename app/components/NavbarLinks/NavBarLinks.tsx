@@ -24,7 +24,7 @@ const NavBarLinks: React.FC<NavBarLinksProps> = ({ handleHashLinkClick, menuOpen
                 <Link href="/services" className="px-4 py-4" onClick={closeMenu}>Služby</Link>
                 <Link href="#partners" onClick={(e) => { handleHashLinkClick('#partners')(e); closeMenu(); }} className="px-4 py-4">Partneři</Link>
                 <Link href="#contact" onClick={(e) => { handleHashLinkClick('#contact')(e); closeMenu(); }} className="px-4 py-4">Kontakt</Link>
-                <Link href="/" className="px-4 py-2" onClick={closeMenu}>Eshop</Link>
+                <Link href="https://eshop.b2bpoint.cz" className="px-4 py-2" onClick={closeMenu}>Eshop</Link>
             </nav>
         </div>
     );
