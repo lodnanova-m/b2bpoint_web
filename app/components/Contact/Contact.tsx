@@ -1,9 +1,5 @@
 'use client';
-import { FC } from 'react';
-import { useForm } from 'react-hook-form';
-import { sendEmail } from '@/utils/send-email';
 import { ContactForm } from "../ContactForm/ContactForm";
-import { FormData } from '@/app/models/models';
 
 export function Contact() {
 
@@ -12,7 +8,7 @@ export function Contact() {
             id="contact"
             className="flex flex-col font-avenir relative w-full text-purple text-2xl p-10 lg:items-center"
             style={{
-                backgroundImage: "url(./contact/contact-bg.png)",
+                backgroundImage: "url(/contact-bg.png)",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
             }}
