@@ -4,13 +4,18 @@ import { NextPage } from "next";
 import { readFile } from "node:fs/promises";
 import { ServiceDatailData } from "@/app/models/models";
 import Image from "next/image";
+import path from "path";
 
 async function getService(id: number) {
-    // TODO: Zod validation to ensure the data is really what it is
-    const result = JSON.parse(
-        await readFile("./services_detail.json", { encoding: "utf-8" })
-    ) as ServiceDatailData;
-    return result.serviceDetails.find((service) => service.id === id);
+  const filePath = path.resolve(
+    process.cwd(),
+    "public",
+    "services_detail.json",
+  );
+  const result = JSON.parse(
+    await readFile(filePath, { encoding: "utf-8" }),
+  ) as ServiceDatailData;
+  return result.serviceDetails.find((service) => service.id === id);
 }
 
 interface Props {
