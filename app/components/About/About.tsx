@@ -27,8 +27,8 @@ export function About() {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col justify-center">
-                <div className="text-center text-purple font-avenir md:text-6xl text-3xl font-semibold px-10">Váš partner pro úsporu nákladů a efektivní obchodování</div>
-                <div className="text-center text-purple font-avenir md:text-2xl text-xl font-light py-5 px-2">Zjednodušte procesy, získejte nejlepší nabídky a prodávejte snadněji s B2Bpoint</div>
+                <div className="text-center text-purple font-avenir md:text-6xl text-3xl font-semibold px-10 animate-fade-right animate-duration-1000">Váš partner pro úsporu nákladů a efektivní obchodování</div>
+                <div className="text-center text-purple font-avenir md:text-2xl text-xl font-light py-5 px-2 animate-fade-right animate-duration-1000 animate-delay-500">Zjednodušte procesy, získejte nejlepší nabídky a prodávejte snadněji s B2Bpoint</div>
             </div>
             <div className="flex flex-col items-center">
                 <div className="">

@@ -1,11 +1,6 @@
 {
     "services": [
         {
-            "imagePath": "outsourcing.png",
-            "title": "Outsourcing obchodů",
-            "description": "Ušetřete náklady a zvyšte prodeje s naším outsourcingovým řešením. Postaráme se o prezentaci a prodej vašich výrobků, vyhledávání zákazníků a uzavírání obchodů. S B2Bpoint najdete správné kupující rychle a efektivně."
-        },
-        {
             "imagePath": "marketing.png",
             "title": "Online marketing",
             "description": "Vstupte do světa online marketingu s námi a pozvedněte svůj byznys na novou úroveň. Zvýšíme návštěvnost vašich kampaní, které zacílíme na vaši cílovou skupinu, zajistíme tvorbu obsahu a podpoříme prodeje."
