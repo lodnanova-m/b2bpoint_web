@@ -14,7 +14,7 @@ export function Contact() {
             }}
         >
             <div className="flex flex-col">
-                <div className="font-light text-2xl">Spojte se s námi a otevřete nové obchodní možnosti</div>
+                <div className="font-light text-2xl md:pb-0 pb-4">Spojte se s námi a otevřete nové obchodní možnosti</div>
                 <div className="font-bold text-4xl">Kontaktujte B2Bpoint ještě dnes</div>
             </div>
             <div className=" py-10">

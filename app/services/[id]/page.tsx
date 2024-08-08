@@ -23,16 +23,16 @@ const ServiceDetail: NextPage<Props> = async ({ params: { id } }) => {
     }
 
 
-    return (<div className='flex flex-col items-center font-avenir text-purple mx-20'>
+    return (<div className='flex flex-col items-center font-avenir text-purple md:mx-20'>
         <div className='text-purple text-2xl font-bold text-center m-10'>{serviceData.title}</div>
         {serviceData.imagePath !== "" &&
             <Image src={`/service_detail/${serviceData.imagePath}`} height={500} width={1200} alt={serviceData.title}></Image>
         }
-        <ul className='my-10 md:mx-40'>
+        <ul className='my-10 md:mx-40 mx-10'>
             {serviceData.description.map((text: string, index: number) => (
                 <li
                     key={index}
-                    className={`font-medium text-xl my-4 ${(text.endsWith('?') || text.endsWith('!') || text.endsWith(':')) ? 'text-center font-extrabold text-3xl py-4' : 'list-disc'}`}
+                    className={`font-medium md:text-xl my-4 ${(text.endsWith('?') || text.endsWith('!') || text.endsWith(':')) ? 'text-center font-extrabold text-3xl py-4' : 'list-disc'}`}
                 >
                     {text}
                 </li>

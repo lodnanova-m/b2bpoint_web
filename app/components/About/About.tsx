@@ -27,15 +27,15 @@ export function About() {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col justify-center">
-                <div className="text-center text-purple font-avenir text-6xl font-semibold px-10">Váš partner pro úsporu nákladů a efektivní obchodování</div>
-                <div className="text-center text-purple font-avenir text-2xl font-light py-5">Zjednodušte procesy, získejte nejlepší nabídky a prodávejte snadněji s B2Bpoint</div>
+                <div className="text-center text-purple font-avenir md:text-6xl text-3xl font-semibold px-10">Váš partner pro úsporu nákladů a efektivní obchodování</div>
+                <div className="text-center text-purple font-avenir md:text-2xl text-xl font-light py-5 px-2">Zjednodušte procesy, získejte nejlepší nabídky a prodávejte snadněji s B2Bpoint</div>
             </div>
             <div className="flex flex-col items-center">
                 <div className="">
                     <div className="bg-blue bg-opacity-20 my-10 p-6">
 
                         <div className="text-purple items-start px-4 text-xl font-medium">Co Vám můžeme nabídnout</div>
-                        <div className="grid place-items-center items-start py-4">
+                        <div className="md:grid place-items-center items-start py-4 hidden md:visible">
                             <div className="flex flex-col sm:flex-row">
                                 {exampleServices[0] && <AboutCard service={exampleServices[0]} containsImage={false} />}
                                 {exampleServices[2] && <AboutCard service={exampleServices[2]} containsImage={false} />}
@@ -45,6 +45,20 @@ export function About() {
                                 {exampleServices[3] && <AboutCard service={exampleServices[3]} containsImage={true} />}
                             </div>
 
+                        </div>
+                        <div className="md:hidden flex flex-col my-5">
+                            <div>
+                            <AboutCard service={exampleServices[0]} containsImage={false} />
+                            </div>
+                            <div>
+                            <AboutCard service={exampleServices[1]} containsImage={true} />
+                            </div>
+                            <div>
+                            <AboutCard service={exampleServices[2]} containsImage={false} />
+                            </div>
+                            <div>
+                            <AboutCard service={exampleServices[3]} containsImage={true} />
+                            </div>
                         </div>
                         <Link href="/services" className="flex flex-row text-purple justify-end px-4 text-xl font-medium">a mnoho dalších</Link>
                     </div>

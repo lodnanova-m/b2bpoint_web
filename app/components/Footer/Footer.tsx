@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import envelope from "@/app/assets/envelope.svg"
@@ -8,7 +9,9 @@ import youtube from "@/app/assets/youtube.svg"
 import phone from "@/app/assets/phone.svg"
 import linkedin from "@/app/assets/linkedin.svg"
 import marker from "@/app/assets/marker.svg"
+import { useRouter } from "next/navigation";
 export function Footer() {
+    const router = useRouter();
     return (
         <>
             <div className="bg-purple flex flex-col text-white py-14">
@@ -22,7 +25,7 @@ export function Footer() {
                                 <div>TASKA CZ s.r.o.</div>
                                 <div>IČ 06288910</div>
                                 <div>DIČ CZ06288910</div>
-                                <div>C 279198vedenmá u</div>
+                                <div>C 279198 vedená u</div>
                                 <div>Městského soudu v Praze</div>
                             </div>
                         </div>
@@ -38,18 +41,18 @@ export function Footer() {
                     <div className="font-avenir">
                         <div className="lg:pb-10  font-bold text-xl">KONTAKT</div>
                         <div className="pb-4">
-                            <div className="flex flex-row content-center py-2">
+                            <a className="flex flex-row content-center py-2 hover:underline" href="mailto:info@b2bpoint.cz">
                                 <Image src={envelope} alt="evelope icon" height={20} width={20}></Image>
                                 <div className="pl-3">info@b2bpoint.cz</div>
-                            </div>
-                            <div className="flex flex-row content-center py-2">
+                            </a>
+                            <a className="flex flex-row content-center py-2 hover:underline" href="tel:+420776506001">
                                 <Image src={phone} alt="phone icon" height={20} width={20}></Image>
                                 <div className="pl-3">+420 776 506 001</div>
-                            </div>
-                            <div className="flex flex-row content-center py-2">
+                            </a>
+                            <a className="flex flex-row content-center py-2 hover:underline" href="https://maps.app.goo.gl/nEYJwzz5ySdYSnDp9">
                                 <Image src={marker} alt="marker icon" height={20} width={20}></Image>
                                 <div className="pl-3">Jičínská 226/17, 130 00 Praha 3</div>
-                            </div>
+                            </a>
 
                         </div>
                     </div>
