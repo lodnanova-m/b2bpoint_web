@@ -13,32 +13,31 @@ const config: Config = {
       blue: "#94C9E1",
       purple: "#463863",
       white: "#FFFFFF",
-      green: "#C8DEA3"
+      green: "#C8DEA3",
     },
     extend: {
       fontFamily: {
-        'avenir': ['Avenir Next Cyr', 'sans-serif'],
+        avenir: ["Avenir Next Cyr", "sans-serif"],
       },
       fontWeight: {
-        'ultralight-italic': "200",
-        'regular': "400",
-        'medium': "500",
-        'bold': "700",
-        'bold-italic': "700",
-        'medium-italic': "500",
+        "ultralight-italic": "200",
+        regular: "400",
+        medium: "500",
+        bold: "700",
+        "bold-italic": "700",
+        "medium-italic": "500",
       },
     },
     animation: {
-      'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      "infinite-scroll": "infinite-scroll 35s linear infinite",
     },
     keyframes: {
-      'infinite-scroll': {
-        from: { transform: 'translateX(0)' },
-        to: { transform: 'translateX(-100%)' },
-      }
-    }
+      "infinite-scroll": {
+        from: { transform: "translateX(0)" },
+        to: { transform: "translateX(-100%)" },
+      },
+    },
   },
-  plugins: [require('tailwindcss-animated')
-  ],
+  plugins: [require("tailwindcss-animated")],
 };
 export default config;

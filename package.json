@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.15",
+    "@ucd-lib/pdf-viewer-flipbook-dist": "^1.0.0",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
     "next": "14.2.5",
@@ -27,6 +28,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
+    "prettier": "3.3.3",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animated": "^1.1.2",
     "typescript": "^5"

@@ -149,7 +149,10 @@ export function Partners() {
             </Link>
           </li>
         </ul>
-        <ul className="flex items-center justify-center md:justify-start [&_li]:mx-6 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+        <ul
+          className="flex items-center justify-center md:justify-start [&_li]:mx-6 [&_img]:max-w-none animate-infinite-scroll"
+          aria-hidden="true"
+        >
           <li>
             <Image
               src="/partners/scukcz.svg"

@@ -1,59 +1,59 @@
 {
-    "services": [
-        {
-            "imagePath": "marketing.png",
-            "title": "Online marketing",
-            "description": "Vstupte do světa online marketingu s námi a pozvedněte svůj byznys na novou úroveň. Zvýšíme návštěvnost vašich kampaní, které zacílíme na vaši cílovou skupinu, zajistíme tvorbu obsahu a podpoříme prodeje."
-        },
-        {
-            "imagePath": "hands.png",
-            "title": "Balení sypkých produktů",
-            "description": "Zvyšte viditelnost vašich produktů s naším online marketingovým řešením. Vyplníme efektivně vaši kampaň, která zacílíme na vaši cílovou skupinu, zajistíme tvorbu obsahu a podpoříme prodeje."
-        },
-        {
-            "imagePath": "fulfillement.png",
-            "title": "Profesionální komplexní fulfillment řešení",
-            "description": "PackLogistics se stará o vaše firmy i zákazníci logistické potřeby. Poskytujeme zpracování objednávek, skladování zboží a zásilkování až po rychlé doručení zásilky vašemu zákazníkovi. Ušetřete čas a zdroje, zatímco my se postaráme o všechny aspekty vašeho logistického řetězce."
-        },
-        {
-            "imagePath": "cars.png",
-            "title": "Nabídka vašich výrobků v CZ, SK a dalších zemích",
-            "description": "Pomáháme podnikatelům a firmám expandovat na zahraniční trhy. S našimi dlouholetými zkušenostmi a odborným znalostem v mezinárodním obchodě vám pomůžeme oslovit nové trhy ve střední Evropě i po celém světě."
-        },
-        {
-            "imagePath": "finances.png",
-            "title": "Financování projektů",
-            "description": "Víme, že každý projekt začíná s vizí a s nadšením, ale bez dostatečných finančních prostředků se projekty neobejdou. Právě proto přinášíme financování pro všechny typy projektů."
-        },
-        {
-            "imagePath": "dotace.png",
-            "title": "Poradenství v oblasti dotací",
-            "description": "Získání dotací pro váš podnik může být náročné, ale nemusí to být sami. Poskytujeme odborné poradenství a koordinujeme žádosti o dotace za vás. Naše služby zvýší vaše šance na úspěšné získání finanční podpory."
-        },
-        {
-            "imagePath": "vyroba.png",
-            "title": "Vývoj, výroba a legislativa",
-            "description": "Vyvineme pro Vás unikátní produkty dle vašich specifických potřeb. Pro výrobu vašich celkových specifikací vyrobíme a dodáme suroviny v bio kvalitě, kompletní návrh a vývoj obalové techniky a výrobků."
-        },
-        {
-            "imagePath": "courses.png",
-            "title": "Školení zaměstnanců a firemní vzdělávání",
-            "description": "Ušetřete náklady a zvyšte prodeje s naším outsourcingovým řešením. Postaráme se o prezentaci a prodej vašich výrobků, vyhledávání zákazníků a uzavírání obchodů. S B2Bpoint najdete správné kupující rychle a efektivně."
-        },
-        {
-            "imagePath": "ads.png",
-            "title": "Reklamní letáky a karty do balíku",
-            "description": "Doplněk - Vydejte se vkládaním reklamních letáků a karet do vašich balíků. Navýší přidanou hodnotu pro vaše zákazníky díky kupónům, vzory a soutěžemi."
-        },
-        {
-            "imagePath": "sklady.png",
-            "title": "Výprodej skladových zásob",
-            "description": "Efektivní řešení pro výprodej skladových zásob. B2Bpoint nabízí široké portfolio produktů za zvýhodněné ceny. Pomůžeme vám rychle a efektivně prodat přebytečné zboží a uvolnit místo ve skladu."
-        },
-        {
-            "imagePath": "ownership.png",
-            "title": "Ochrana duševního a průmyslového vlastnictví",
-            "description": "Nabízíme komplexní služby v oblasti ochrany průmyslových vzorů, patentů a ochranných známek, aby vaše inovace a výsledky vašeho úsilí byly chráněny."
-        }
-    ]
+  "services": [
+    {
+      "imagePath": "marketing.png",
+      "title": "Online marketing",
+      "description": "Vstupte do světa online marketingu s námi a pozvedněte svůj byznys na novou úroveň. Zvýšíme návštěvnost vašich kampaní, které zacílíme na vaši cílovou skupinu, zajistíme tvorbu obsahu a podpoříme prodeje."
+    },
+    {
+      "imagePath": "hands.png",
+      "title": "Balení sypkých produktů",
+      "description": "Zvyšte viditelnost vašich produktů s naším online marketingovým řešením. Vyplníme efektivně vaši kampaň, která zacílíme na vaši cílovou skupinu, zajistíme tvorbu obsahu a podpoříme prodeje."
+    },
+    {
+      "imagePath": "fulfillement.png",
+      "title": "Profesionální komplexní fulfillment řešení",
+      "description": "PackLogistics se stará o vaše firmy i zákazníci logistické potřeby. Poskytujeme zpracování objednávek, skladování zboží a zásilkování až po rychlé doručení zásilky vašemu zákazníkovi. Ušetřete čas a zdroje, zatímco my se postaráme o všechny aspekty vašeho logistického řetězce."
+    },
+    {
+      "imagePath": "cars.png",
+      "title": "Nabídka vašich výrobků v CZ, SK a dalších zemích",
+      "description": "Pomáháme podnikatelům a firmám expandovat na zahraniční trhy. S našimi dlouholetými zkušenostmi a odborným znalostem v mezinárodním obchodě vám pomůžeme oslovit nové trhy ve střední Evropě i po celém světě."
+    },
+    {
+      "imagePath": "finances.png",
+      "title": "Financování projektů",
+      "description": "Víme, že každý projekt začíná s vizí a s nadšením, ale bez dostatečných finančních prostředků se projekty neobejdou. Právě proto přinášíme financování pro všechny typy projektů."
+    },
+    {
+      "imagePath": "dotace.png",
+      "title": "Poradenství v oblasti dotací",
+      "description": "Získání dotací pro váš podnik může být náročné, ale nemusí to být sami. Poskytujeme odborné poradenství a koordinujeme žádosti o dotace za vás. Naše služby zvýší vaše šance na úspěšné získání finanční podpory."
+    },
+    {
+      "imagePath": "vyroba.png",
+      "title": "Vývoj, výroba a legislativa",
+      "description": "Vyvineme pro Vás unikátní produkty dle vašich specifických potřeb. Pro výrobu vašich celkových specifikací vyrobíme a dodáme suroviny v bio kvalitě, kompletní návrh a vývoj obalové techniky a výrobků."
+    },
+    {
+      "imagePath": "courses.png",
+      "title": "Školení zaměstnanců a firemní vzdělávání",
+      "description": "Ušetřete náklady a zvyšte prodeje s naším outsourcingovým řešením. Postaráme se o prezentaci a prodej vašich výrobků, vyhledávání zákazníků a uzavírání obchodů. S B2Bpoint najdete správné kupující rychle a efektivně."
+    },
+    {
+      "imagePath": "ads.png",
+      "title": "Reklamní letáky a karty do balíku",
+      "description": "Doplněk - Vydejte se vkládaním reklamních letáků a karet do vašich balíků. Navýší přidanou hodnotu pro vaše zákazníky díky kupónům, vzory a soutěžemi."
+    },
+    {
+      "imagePath": "sklady.png",
+      "title": "Výprodej skladových zásob",
+      "description": "Efektivní řešení pro výprodej skladových zásob. B2Bpoint nabízí široké portfolio produktů za zvýhodněné ceny. Pomůžeme vám rychle a efektivně prodat přebytečné zboží a uvolnit místo ve skladu."
+    },
+    {
+      "imagePath": "ownership.png",
+      "title": "Ochrana duševního a průmyslového vlastnictví",
+      "description": "Nabízíme komplexní služby v oblasti ochrany průmyslových vzorů, patentů a ochranných známek, aby vaše inovace a výsledky vašeho úsilí byly chráněny."
+    }
+  ]
 }
