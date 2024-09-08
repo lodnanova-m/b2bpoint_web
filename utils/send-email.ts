@@ -1,7 +1,7 @@
-import { FormData } from "@/app/models/models";
+import { FormData } from "@/app/models/models"
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = "/api/email";
+  const apiEndpoint = "/api/email"
 
   fetch(apiEndpoint, {
     method: "POST",
@@ -9,9 +9,9 @@ export function sendEmail(data: FormData) {
   })
     .then((res) => res.json())
     .then((response) => {
-      alert(response.message);
+      alert(response.message)
     })
     .catch((err) => {
-      alert(err);
-    });
+      alert(err)
+    })
 }
