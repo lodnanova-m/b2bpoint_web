@@ -1,9 +1,9 @@
-import { Actuality, ServicesData } from "@/app/models/models";
-import { ButtonLink } from "../buttons/ButtonLink";
-import * as fs from "fs";
-import { AboutCard } from "../AboutCard/AboutCard";
-import Link from "next/link";
-import { ActualityCard } from "../ Actuality/Actuality";
+import { Actuality, ServicesData } from "@/app/models/models"
+import { ButtonLink } from "../buttons/ButtonLink"
+import * as fs from "fs"
+import { AboutCard } from "../AboutCard/AboutCard"
+import Link from "next/link"
+import { ActualityCard } from "../ Actuality/Actuality"
 
 const exampleActuality: Actuality = {
   imagePath: "/actuality-card.png",
@@ -12,14 +12,14 @@ const exampleActuality: Actuality = {
   date: "7.11.2024",
   place: "PRAHA",
   href: "",
-};
+}
 
 export function About() {
-  const rawData = fs.readFileSync("./services.json", "utf8");
-  const servicesData: ServicesData = JSON.parse(rawData);
-  const exampleServices = [];
+  const rawData = fs.readFileSync("./services.json", "utf8")
+  const servicesData: ServicesData = JSON.parse(rawData)
+  const exampleServices = []
   if (servicesData.services.length >= 4) {
-    exampleServices.push(...servicesData.services.slice(0, 4));
+    exampleServices.push(...servicesData.services.slice(0, 4))
   }
 
   return (
@@ -97,5 +97,5 @@ export function About() {
         </div>
       </div>
     </div>
-  );
+  )
 }

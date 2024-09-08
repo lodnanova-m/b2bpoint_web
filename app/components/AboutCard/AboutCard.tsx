@@ -1,11 +1,11 @@
-import { Service } from "@/app/models/models";
-import Image from "next/image";
-import Link from "next/link";
+import { Service } from "@/app/models/models"
+import Image from "next/image"
+import Link from "next/link"
 
 type AboutCardProps = {
-  service: Service;
-  containsImage: boolean;
-};
+  service: Service
+  containsImage: boolean
+}
 
 export function AboutCard({ service, containsImage }: AboutCardProps) {
   return (
@@ -28,5 +28,5 @@ export function AboutCard({ service, containsImage }: AboutCardProps) {
         </div>
       </div>
     </div>
-  );
+  )
 }

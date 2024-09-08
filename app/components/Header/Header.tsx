@@ -1,31 +1,31 @@
-"use client";
+"use client"
 
-import { useState, MouseEvent } from "react";
-import { usePathname, useRouter } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import NavBarLinks from "../NavbarLinks/NavBarLinks";
+import { useState, MouseEvent } from "react"
+import { usePathname, useRouter } from "next/navigation"
+import Image from "next/image"
+import Link from "next/link"
+import NavBarLinks from "../NavbarLinks/NavBarLinks"
 
 export function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname();
-  const router = useRouter();
+  const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const router = useRouter()
 
   const handleHashLinkClick =
     (hash: string) => (e: MouseEvent<HTMLAnchorElement>) => {
       if (pathname !== "/") {
-        e.preventDefault();
-        router.push(`/${hash}`);
+        e.preventDefault()
+        router.push(`/${hash}`)
       }
-    };
+    }
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+    setMenuOpen(!menuOpen)
+  }
 
   const closeMenu = () => {
-    setMenuOpen(false);
-  };
+    setMenuOpen(false)
+  }
 
   return (
     <div className="">
@@ -78,5 +78,5 @@ export function Header() {
         closeMenu={closeMenu}
       />
     </div>
-  );
+  )
 }

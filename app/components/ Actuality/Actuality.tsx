@@ -1,9 +1,9 @@
-import { Actuality } from "@/app/models/models";
-import Image from "next/image";
+import { Actuality } from "@/app/models/models"
+import Image from "next/image"
 
 type ActualityProps = {
-  actuality: Actuality;
-};
+  actuality: Actuality
+}
 
 export function ActualityCard({ actuality }: ActualityProps) {
   return (
@@ -39,5 +39,5 @@ export function ActualityCard({ actuality }: ActualityProps) {
         </button>
       </div>
     </div>
-  );
+  )
 }

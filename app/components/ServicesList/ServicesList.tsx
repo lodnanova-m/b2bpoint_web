@@ -1,11 +1,11 @@
-import { Service, ServicesData } from "@/app/models/models";
-import * as fs from "fs";
-import { ServiceCard } from "../ServiceCard/ServiceCard";
-import Link from "next/link";
+import { Service, ServicesData } from "@/app/models/models"
+import * as fs from "fs"
+import { ServiceCard } from "../ServiceCard/ServiceCard"
+import Link from "next/link"
 
 export function ServicesList() {
-  const rawData = fs.readFileSync("./services.json", "utf8");
-  const servicesData: ServicesData = JSON.parse(rawData);
+  const rawData = fs.readFileSync("./services.json", "utf8")
+  const servicesData: ServicesData = JSON.parse(rawData)
   return (
     <div className="flex flex-col md:px-40 px-4 pb-16">
       <div className="text-purple text-2xl font-bold text-center animate-fade-right animate-duration-1000">
@@ -34,5 +34,5 @@ export function ServicesList() {
         ))}
       </div>
     </div>
-  );
+  )
 }

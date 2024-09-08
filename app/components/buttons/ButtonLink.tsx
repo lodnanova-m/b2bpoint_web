@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Link from "next/link"
 
 type ButtonLinkProps = {
-  path: string;
-  label: string;
-};
+  path: string
+  label: string
+}
 export function ButtonLink({ path, label }: ButtonLinkProps) {
   return (
     <Link href={path}>
@@ -11,5 +11,5 @@ export function ButtonLink({ path, label }: ButtonLinkProps) {
         {label}
       </button>
     </Link>
-  );
+  )
 }

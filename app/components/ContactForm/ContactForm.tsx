@@ -1,9 +1,9 @@
-"use client";
-import { FC } from "react";
-import { useForm } from "react-hook-form";
-import { sendEmail } from "@/utils/send-email";
-import { FormData } from "@/app/models/models";
-import Link from "next/link";
+"use client"
+import { FC } from "react"
+import { useForm } from "react-hook-form"
+import { sendEmail } from "@/utils/send-email"
+import { FormData } from "@/app/models/models"
+import Link from "next/link"
 
 export function ContactForm() {
   const {
@@ -11,11 +11,11 @@ export function ContactForm() {
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm<FormData>();
+  } = useForm<FormData>()
 
   function onSubmit(data: FormData) {
-    sendEmail(data);
-    reset(); // Clear the form after submission
+    sendEmail(data)
+    reset() // Clear the form after submission
   }
 
   return (
@@ -75,5 +75,5 @@ export function ContactForm() {
         </button>
       </div>
     </form>
-  );
+  )
 }

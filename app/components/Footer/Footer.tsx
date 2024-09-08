@@ -1,17 +1,17 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import envelope from "@/app/assets/envelope.svg";
-import footer from "@/app/assets/footer.svg";
-import facebook from "@/app/assets/facebook.svg";
-import instagram from "@/app/assets/instagram.svg";
-import youtube from "@/app/assets/youtube.svg";
-import phone from "@/app/assets/phone.svg";
-import linkedin from "@/app/assets/linkedin.svg";
-import marker from "@/app/assets/marker.svg";
-import { useRouter } from "next/navigation";
+"use client"
+import Image from "next/image"
+import Link from "next/link"
+import envelope from "@/app/assets/envelope.svg"
+import footer from "@/app/assets/footer.svg"
+import facebook from "@/app/assets/facebook.svg"
+import instagram from "@/app/assets/instagram.svg"
+import youtube from "@/app/assets/youtube.svg"
+import phone from "@/app/assets/phone.svg"
+import linkedin from "@/app/assets/linkedin.svg"
+import marker from "@/app/assets/marker.svg"
+import { useRouter } from "next/navigation"
 export function Footer() {
-  const router = useRouter();
+  const router = useRouter()
   return (
     <>
       <div className="bg-purple flex flex-col text-white py-14">
@@ -156,5 +156,5 @@ export function Footer() {
         </div>
       </div>
     </>
-  );
+  )
 }

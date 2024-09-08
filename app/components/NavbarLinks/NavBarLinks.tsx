@@ -1,11 +1,11 @@
-import { MouseEventHandler } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import { MouseEventHandler } from "react"
+import Link from "next/link"
+import Image from "next/image"
 
 interface NavBarLinksProps {
-  handleHashLinkClick: (hash: string) => MouseEventHandler<HTMLAnchorElement>;
-  menuOpen: boolean;
-  closeMenu: () => void;
+  handleHashLinkClick: (hash: string) => MouseEventHandler<HTMLAnchorElement>
+  menuOpen: boolean
+  closeMenu: () => void
 }
 
 const NavBarLinks: React.FC<NavBarLinksProps> = ({
@@ -39,8 +39,8 @@ const NavBarLinks: React.FC<NavBarLinksProps> = ({
         <Link
           href="#partners"
           onClick={(e) => {
-            handleHashLinkClick("#partners")(e);
-            closeMenu();
+            handleHashLinkClick("#partners")(e)
+            closeMenu()
           }}
           className="px-4 py-4"
         >
@@ -49,8 +49,8 @@ const NavBarLinks: React.FC<NavBarLinksProps> = ({
         <Link
           href="#contact"
           onClick={(e) => {
-            handleHashLinkClick("#contact")(e);
-            closeMenu();
+            handleHashLinkClick("#contact")(e)
+            closeMenu()
           }}
           className="px-4 py-4"
         >
@@ -65,7 +65,7 @@ const NavBarLinks: React.FC<NavBarLinksProps> = ({
         </Link>
       </nav>
     </div>
-  );
-};
+  )
+}
 
-export default NavBarLinks;
+export default NavBarLinks

@@ -1,5 +1,5 @@
-import { NextPage } from "next";
-import { ServicesList } from "../components/ServicesList/ServicesList";
+import { NextPage } from "next"
+import { ServicesList } from "../components/ServicesList/ServicesList"
 
 interface Props {}
 
@@ -8,7 +8,7 @@ const Services: NextPage<Props> = ({}) => {
     <div className="">
       <ServicesList></ServicesList>
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

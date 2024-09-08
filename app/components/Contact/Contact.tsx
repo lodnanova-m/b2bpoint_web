@@ -1,5 +1,5 @@
-"use client";
-import { ContactForm } from "../ContactForm/ContactForm";
+"use client"
+import { ContactForm } from "../ContactForm/ContactForm"
 
 export function Contact() {
   return (
@@ -24,5 +24,5 @@ export function Contact() {
         <ContactForm></ContactForm>
       </div>
     </div>
-  );
+  )
 }
