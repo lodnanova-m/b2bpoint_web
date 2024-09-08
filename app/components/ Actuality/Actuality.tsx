@@ -1,5 +1,6 @@
 import { Actuality } from "@/app/models/models"
 import Image from "next/image"
+import Link from "next/link"
 
 type ActualityProps = {
   actuality: Actuality
@@ -29,7 +30,9 @@ export function ActualityCard({ actuality }: ActualityProps) {
           <div className="text-2xl pl-4">{actuality.date}</div>
         </div>
         <button className="my-4 text-purple bg-white rounded-md py-2 px-4 font-medium flex flex-row items-center">
-          <div className="pr-2">Více zde</div>{" "}
+          <Link href="/pdf/kontrakcni_den.pdf" className="pr-2" target="_blank">
+            Více zde
+          </Link>{" "}
           <Image
             src="./Vector.svg"
             alt="link icon"
